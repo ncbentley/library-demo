@@ -36,7 +36,6 @@ const BookTable = ({url}: {url: string}) => {
         var filter: string = event.target.value;
         fetch_books(url).then((books) => {
             if (filter != "") {
-                console.log(filter)
                 var filtered: Book[] = books.filter((book) => {
                     if (book.title.toLowerCase().includes(filter.toLowerCase())) return true;
                     if (book.author.toLowerCase().includes(filter.toLowerCase())) return true;
