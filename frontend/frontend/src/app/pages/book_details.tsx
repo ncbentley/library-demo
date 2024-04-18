@@ -70,6 +70,7 @@ const BookDetails = ({book, url, setDetail}: {book: Book, url: string, setDetail
                         />
                         <TextField
                             multiline
+                            required
                             id="body"
                             label="Body"
                             defaultValue={body}

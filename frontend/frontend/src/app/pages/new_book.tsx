@@ -53,6 +53,7 @@ const NewBook = ({url, setNew, books, setBooks}: {url: string, setNew: Dispatch<
                     />
                     <TextField
                         multiline
+                        required
                         id="body"
                         label="Body"
                         defaultValue={body}
