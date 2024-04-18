@@ -1,6 +1,6 @@
 import BookTable from "./pages/book_table";
 
-const url = "http://localhost:8000";
+const url = "http://nbentley.pythonanywhere.com";
 
 export default async function Home() {
   return (
